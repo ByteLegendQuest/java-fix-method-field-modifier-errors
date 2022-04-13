@@ -5,18 +5,18 @@ public class Cat extends Pet {
 
     public Cat(String name, int age) {
         super(name);
-        verifyAge();
+        verifyAge(age);
         this.age = age;
     }
 
-    private void verifyAge() {
+    private void verifyAge(int age) {
         if (age < 0) {
             throw new IllegalArgumentException("Age cannot be negative");
         }
     }
 
     @Override
-    private String describeMyself() {
-        return "I am a cat named " + name + " and I am " + age + " years old";
+    protected String describeMyself() {
+        return "I am a cat named " + getName() + " and I am " + age + " years old";
     }
 }
