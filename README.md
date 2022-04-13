@@ -6,7 +6,7 @@
 ## Fix Errors in Method and Field Modifiers
 
 [src/main/java/com/bytelegend/Cat.java](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/src/main/java/com/bytelegend/Cat.java) doesn't compile now, please fix the error, so that the local run of `mvn verify` can pass.
-Note that `verifyAge()` method is the implementation detail of the class, we don't want it to be `public`.
+Note that `buildDescription()` method is the implementation detail of the class, we don't want it to be `public`.
 
 Don't know how? See [verify locally in IDEA](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/docs/en/run-mvn-verify-idea.md)/[verify locally in VSCode](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/docs/en/run-mvn-verify-vscode.md).
 
@@ -38,7 +38,7 @@ Any changes to files other than the following files will be rejected:**
 ## 修复方法和字段的修饰符错误
 
 [src/main/java/com/bytelegend/Cat.java](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/src/main/java/com/bytelegend/Cat.java)中存在一些编译错误，无法通过编译，请修复这些错误，确保本地运行`mvn verify`能够通过。
-注意，其中的`verifyAge()`方法属于类的实现细节，我们不希望把它变成`public`的。
+注意，其中的`buildDescription()`方法属于类的实现细节，我们不希望把它变成`public`的。
 
 不知道如何做？请查看[在IDEA中本地验证](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/docs/zh_hans/run-mvn-verify-idea.md)/[在VSCode中本地验证](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/docs/zh_hans/run-mvn-verify-vscode.md
 
@@ -68,7 +68,7 @@ Any changes to files other than the following files will be rejected:**
 修復方法和字段修飾符中的錯誤
 --------------
 
-[src/main/java/com/bytelegend/Cat.java](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/src/main/java/com/bytelegend/Cat.java)現在無法編譯，請修復錯誤，以便本地運行`mvn verify`可以通過。注意`verifyAge()`方法是類的實現細節，我們不希望它是`public` 。
+[src/main/java/com/bytelegend/Cat.java](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/src/main/java/com/bytelegend/Cat.java)現在無法編譯，請修復錯誤，以便本地運行`mvn verify`可以通過。注意`buildDescription()`方法是類的實現細節，我們不希望它是`public` 。
 
 不知道怎麼樣？請參閱[在 IDEA](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/docs/en/run-mvn-verify-idea.md) [中進行本地驗證/在 VSCode 中進行本地驗證](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/docs/en/run-mvn-verify-vscode.md)。
 
@@ -97,7 +97,7 @@ Any changes to files other than the following files will be rejected:**
 Corregir errores en los modificadores de métodos y campos
 ---------------------------------------------------------
 
-[src/main/java/com/bytelegend/Cat.java](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/src/main/java/com/bytelegend/Cat.java) no se compila ahora, solucione el error para que la ejecución local de `mvn verify` pueda pasar. Tenga en cuenta que el método `verifyAge()` es el detalle de implementación de la clase, no queremos que sea `public` .
+[src/main/java/com/bytelegend/Cat.java](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/src/main/java/com/bytelegend/Cat.java) no se compila ahora, solucione el error para que la ejecución local de `mvn verify` pueda pasar. Tenga en cuenta que el método `buildDescription()` es el detalle de implementación de la clase, no queremos que sea `public` .
 
 ¿No sabes cómo? Ver [verificar localmente en IDEA](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/docs/en/run-mvn-verify-idea.md) / [verificar localmente en VSCode](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/docs/en/run-mvn-verify-vscode.md) .
 
@@ -126,7 +126,7 @@ Si necesita ayuda, no dude en unirse a la [comunidad de Discord](https://discord
 إصلاح الأخطاء في معدّلات الأسلوب والميدان
 -----------------------------------------
 
-لم يتم تجميع [src / main / java / com / bytelegend / Cat.java](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/src/main/java/com/bytelegend/Cat.java) الآن ، يرجى إصلاح الخطأ ، حتى يمكن أن يمر التشغيل المحلي `mvn verify` . لاحظ أن طريقة `verifyAge()` هي تفاصيل تنفيذ الفصل ، ولا نريد أن تكون `public` .
+لم يتم تجميع [src / main / java / com / bytelegend / Cat.java](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/src/main/java/com/bytelegend/Cat.java) الآن ، يرجى إصلاح الخطأ ، حتى يمكن أن يمر التشغيل المحلي `mvn verify` . لاحظ أن طريقة `buildDescription()` هي تفاصيل تنفيذ الفصل ، ولا نريد أن تكون `public` .
 
 لا أعرف كيف؟ انظر [التحقق محليًا في IDEA](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/docs/en/run-mvn-verify-idea.md) / [تحقق محليًا في VSCode](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/docs/en/run-mvn-verify-vscode.md) .
 
@@ -135,7 +135,7 @@ Si necesita ayuda, no dude en unirse a la [comunidad de Discord](https://discord
         -   إذا كنت لا تعرف كيف يمكنك النقر فوق [استيراد مشروع إلى IDEA](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/docs/en/clone-and-import.md) / [استيراد مشروع إلى VSCode](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/docs/en/clone-and-import-vscode.md) .
         -   قبل إرسال التعليمات البرمجية الخاصة بك ، من الأفضل تشغيل `mvn verify` محليًا لتوفير الوقت. لا أعرف كيف؟ انظر [التحقق محليًا في IDEA](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/docs/en/run-mvn-verify-idea.md) / [تحقق محليًا في VSCode](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/docs/en/run-mvn-verify-vscode.md) .
     -   غير موصى به على الإطلاق: يمكنك [النقر هنا لتنزيل رمز مضغوط](https://codeload.github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/zip/refs/heads/main) إذا كنت لا تحب عمليات `git` .
-    -   أو: إذا كنت واثقًا بدرجة كافية لكتابة التعليمات البرمجية في محرر الويب مباشرةً ، فابدأ.
+    -   أو: إذا كنت واثقًا بدرجة كافية من كتابة التعليمات البرمجية في محرر الويب مباشرةً ، فابدأ.
     -   أو: إذا كنت معتادًا على GitHub ، فيمكنك تفرع [الريبو](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors) وإنهاء التحدي وإنشاء طلب سحب.
 -   سيتحقق الروبوت من العلاقات العامة الخاصة بك ويخبرك إذا أنجزت التحدي.
 -   ارجع إلى [ByteLegend وتابع](https://bytelegend.com) رحلة بطلك.
@@ -155,18 +155,18 @@ Si necesita ayuda, no dude en unirse a la [comunidad de Discord](https://discord
 Corrigir erros nos modificadores de método e campo
 --------------------------------------------------
 
-[src/main/java/com/bytelegend/Cat.java](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/src/main/java/com/bytelegend/Cat.java) não compila agora, por favor corrija o erro, para que a execução local do `mvn verify` possa passar. Observe que o método `verifyAge()` é o detalhe de implementação da classe, não queremos que seja `public` .
+[src/main/java/com/bytelegend/Cat.java](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/src/main/java/com/bytelegend/Cat.java) não compila agora, por favor corrija o erro, para que a execução local do `mvn verify` possa passar. Observe que o método `buildDescription()` é o detalhe de implementação da classe, não queremos que seja `public` .
 
 Não sei como? Consulte [verificar localmente em IDEA](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/docs/en/run-mvn-verify-idea.md) / [verificar localmente em VSCode](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/docs/en/run-mvn-verify-vscode.md) .
 
--   Você pode realizar esse desafio de qualquer maneira abaixo:
+-   Você pode realizar este desafio de qualquer maneira abaixo:
     -   Recomendado para iniciantes: execute `git clone https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors` para baixar o código, conclua o desafio em seu IDE local e copie/cole/envie a resposta em editor web.
         -   Se você não sabe como, você pode clicar em [importar projeto para IDEA](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/docs/en/clone-and-import.md) / [importar projeto para VSCode](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/docs/en/clone-and-import-vscode.md) .
         -   Antes de enviar seu código, é melhor você executar `mvn verify` localmente para economizar tempo. Não sei como? Consulte [verificar localmente em IDEA](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/docs/en/run-mvn-verify-idea.md) / [verificar localmente em VSCode](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/docs/en/run-mvn-verify-vscode.md) .
     -   Muito não recomendado: você pode [clicar aqui para baixar o código zipado](https://codeload.github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/zip/refs/heads/main) se não gostar das operações do `git` .
-    -   Ou: se você estiver confiante o suficiente para escrever código diretamente no editor web, vá em frente.
+    -   Ou: se você estiver confiante o suficiente para escrever código diretamente no editor da web, vá em frente.
     -   Ou: se você estiver familiarizado com o GitHub, você pode bifurcar [o repo](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors) , finalizar o desafio e criar um pull request.
--   O bot verificará seu PR e informará se você cumpriu o desafio.
+-   O bot verificará seu PR e informará se você cumprir o desafio.
 -   Volte para [ByteLegend](https://bytelegend.com) e continue sua jornada de herói.
 
 Boa sorte!
@@ -184,7 +184,7 @@ Se precisar de ajuda, sinta-se à vontade para se juntar à [Comunidade Discord]
 Perbaiki Kesalahan dalam Pengubah Metode dan Bidang
 ---------------------------------------------------
 
-[src/main/java/com/bytelegend/Cat.java](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/src/main/java/com/bytelegend/Cat.java) tidak dapat dikompilasi sekarang, harap perbaiki kesalahannya, sehingga `mvn verify` yang dijalankan secara lokal dapat lulus. Perhatikan bahwa metode `verifyAge()` adalah detail implementasi kelas, kami tidak ingin itu menjadi `public` .
+[src/main/java/com/bytelegend/Cat.java](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/src/main/java/com/bytelegend/Cat.java) tidak dapat dikompilasi sekarang, harap perbaiki kesalahannya, sehingga `mvn verify` yang dijalankan secara lokal dapat lulus. Perhatikan bahwa metode `buildDescription()` adalah detail implementasi kelas, kami tidak menginginkannya menjadi `public` .
 
 Tidak tahu bagaimana? Lihat [verifikasi secara lokal di IDEA](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/docs/en/run-mvn-verify-idea.md) / [verifikasi secara lokal di VSCode](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/docs/en/run-mvn-verify-vscode.md) .
 
@@ -213,7 +213,7 @@ Jika Anda memerlukan bantuan, jangan ragu untuk bergabung dengan [Komunitas Disc
 Corriger les erreurs dans les modificateurs de méthode et de champ
 ------------------------------------------------------------------
 
-[src/main/java/com/bytelegend/Cat.java](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/src/main/java/com/bytelegend/Cat.java) ne se compile pas maintenant, veuillez corriger l'erreur, afin que l'exécution locale de `mvn verify` puisse passer. Notez que la méthode `verifyAge()` est le détail de l'implémentation de la classe, nous ne voulons pas qu'elle soit `public` .
+[src/main/java/com/bytelegend/Cat.java](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/src/main/java/com/bytelegend/Cat.java) ne se compile pas maintenant, veuillez corriger l'erreur, afin que l'exécution locale de `mvn verify` puisse passer. Notez que la méthode `buildDescription()` est le détail de l'implémentation de la classe, nous ne voulons pas qu'elle soit `public` .
 
 Vous ne savez pas comment ? Voir [vérifier localement dans IDEA](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/docs/en/run-mvn-verify-idea.md) / [vérifier localement dans VSCode](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/docs/en/run-mvn-verify-vscode.md) .
 
@@ -242,7 +242,7 @@ Si vous avez besoin d'aide, n'hésitez pas à rejoindre la [communauté Discord]
 メソッドおよびフィールド修飾子のエラーを修正
 ----------------------
 
-[src / main / java / com / bytelegend / Cat.java](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/src/main/java/com/bytelegend/Cat.java)は現在コンパイルされません。エラーを修正して、 `mvn verify`のローカル実行に合格できるようにしてください。 `verifyAge()`メソッドはクラスの実装の詳細であり、 `public`にしたくないことに注意してください。
+[src / main / java / com / bytelegend / Cat.java](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/src/main/java/com/bytelegend/Cat.java)は現在コンパイルされません。エラーを修正して、 `mvn verify`のローカル実行に合格できるようにしてください。 `buildDescription()`メソッドはクラスの実装の詳細であり、 `public`にしたくないことに注意してください。
 
 方法がわかりませんか？ [IDEAでローカルに](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/docs/en/run-mvn-verify-idea.md)[検証する/VSCodeでローカルに](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/docs/en/run-mvn-verify-vscode.md)検証するを参照してください。
 
@@ -271,7 +271,7 @@ Si vous avez besoin d'aide, n'hésitez pas à rejoindre la [communauté Discord]
 Исправление ошибок в модификаторах методов и полей
 --------------------------------------------------
 
-[src/main/java/com/bytelegend/Cat.java](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/src/main/java/com/bytelegend/Cat.java) теперь не компилируется, исправьте ошибку, чтобы локальный запуск `mvn verify` мог пройти. Обратите внимание, что `verifyAge()` — это деталь реализации класса, мы не хотим, чтобы он был `public` .
+[src/main/java/com/bytelegend/Cat.java](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/src/main/java/com/bytelegend/Cat.java) теперь не компилируется, исправьте ошибку, чтобы локальный запуск `mvn verify` мог пройти. Обратите внимание, что `buildDescription()` — это деталь реализации класса, мы не хотим, чтобы он был `public` .
 
 Не знаете как? См. « [Проверить локально в IDEA](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/docs/en/run-mvn-verify-idea.md) / [проверить локально в VSCode»](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/docs/en/run-mvn-verify-vscode.md) .
 
@@ -279,9 +279,9 @@ Si vous avez besoin d'aide, n'hésitez pas à rejoindre la [communauté Discord]
     -   Рекомендуется для начинающих: запустите `git clone https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors` , чтобы загрузить код, выполните задание в локальной среде IDE, затем скопируйте/вставьте/отправьте ответ в веб-редактор.
         -   Если вы не знаете как, вы можете нажать [импортировать проект в IDEA](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/docs/en/clone-and-import.md) / [импортировать проект в VSCode](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/docs/en/clone-and-import-vscode.md) .
         -   Перед отправкой кода вам лучше запустить `mvn verify` локально, чтобы сэкономить время. Не знаете как? См. « [Проверить локально в IDEA](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/docs/en/run-mvn-verify-idea.md) / [проверить локально в VSCode»](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/docs/en/run-mvn-verify-vscode.md) .
-    -   Крайне не рекомендуется: вы можете [нажать здесь, чтобы загрузить заархивированный код](https://codeload.github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/zip/refs/heads/main) , если вам не нравятся операции `git` .
+    -   Крайне не рекомендуется: вы можете [щелкнуть здесь, чтобы загрузить заархивированный код](https://codeload.github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/zip/refs/heads/main) , если вам не нравятся операции `git` .
     -   Или: если вы достаточно уверены, чтобы писать код напрямую в веб-редакторе, вперед.
-    -   Или: если вы знакомы с GitHub, вы можете разветвить [репозиторий](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors) , выполнить задание и создать запрос на включение.
+    -   Или: если вы знакомы с GitHub, вы можете разветвить [репо](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors) , выполнить задание и создать запрос на включение.
 -   Бот проверит ваш PR и сообщит, выполнили ли вы задание.
 -   Вернитесь в [ByteLegend](https://bytelegend.com) и продолжайте свое героическое путешествие.
 
@@ -300,7 +300,7 @@ Si vous avez besoin d'aide, n'hésitez pas à rejoindre la [communauté Discord]
 Beheben Sie Fehler in Methoden- und Feldmodifikatoren
 -----------------------------------------------------
 
-[src/main/java/com/bytelegend/Cat.java](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/src/main/java/com/bytelegend/Cat.java) wird jetzt nicht kompiliert, bitte beheben Sie den Fehler, damit die lokale Ausführung von `mvn verify` passieren kann. Beachten Sie, dass die Methode `verifyAge()` das Implementierungsdetail der Klasse ist, wir wollen nicht, dass sie `public` ist.
+[src/main/java/com/bytelegend/Cat.java](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/src/main/java/com/bytelegend/Cat.java) wird jetzt nicht kompiliert, bitte beheben Sie den Fehler, damit die lokale Ausführung von `mvn verify` passieren kann. Beachten Sie, dass die Methode `buildDescription()` das Implementierungsdetail der Klasse ist, wir wollen nicht, dass sie `public` ist.
 
 Sie wissen nicht wie? Siehe [Lokal verifizieren in IDEA](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/docs/en/run-mvn-verify-idea.md) / [Lokal verifizieren in VSCode](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/docs/en/run-mvn-verify-vscode.md) .
 
@@ -329,12 +329,12 @@ Wenn Sie Hilfe benötigen, können Sie sich gerne der [Discord Community](https:
 메서드 및 필드 수정자의 오류 수정
 -------------------
 
-[src/main/java/com/bytelegend/Cat.java](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/src/main/java/com/bytelegend/Cat.java) 가 지금 컴파일되지 않습니다. `mvn verify` 의 로컬 실행이 통과할 수 있도록 오류를 수정하십시오. `verifyAge()` 메서드는 클래스의 구현 세부 정보이므로 `public` 을 원하지 않습니다.
+[src/main/java/com/bytelegend/Cat.java](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/src/main/java/com/bytelegend/Cat.java) 가 지금 컴파일되지 않습니다. `mvn verify` 의 로컬 실행이 통과할 수 있도록 오류를 수정하십시오. `buildDescription()` 메서드는 클래스의 구현 세부 정보이므로 `public` 을 원하지 않습니다.
 
 방법을 모르십니까? [IDEA에서 로컬로](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/docs/en/run-mvn-verify-idea.md) [확인/VSCode에서 로컬로](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/docs/en/run-mvn-verify-vscode.md) 확인을 참조하세요.
 
 -   아래 방법을 통해 이 챌린지를 완료할 수 있습니다.
-    -   초보자를 위한 권장 사항: `git clone https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors` 를 실행하여 코드를 다운로드하고, 로컬 IDE에서 챌린지를 완료한 다음, 답을 복사/붙여넣기/제출합니다. 웹 에디터.
+    -   초보자를 위한 권장 사항: `git clone https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors` 를 실행하여 코드를 다운로드하고 로컬 IDE에서 챌린지를 완료한 다음 답변을 복사/붙여넣기/제출합니다. 웹 에디터.
         -   방법을 모르는 경우 [프로젝트를 IDEA로](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/docs/en/clone-and-import.md) [가져오기 / 프로젝트를 VSCode로 가져](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/docs/en/clone-and-import-vscode.md) 오기를 클릭할 수 있습니다.
         -   코드를 제출하기 전에 시간을 절약하기 위해 로컬에서 `mvn verify` 를 실행하는 것이 좋습니다. 방법을 모르십니까? [IDEA에서 로컬로](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/docs/en/run-mvn-verify-idea.md) [확인/VSCode에서 로컬로](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/docs/en/run-mvn-verify-vscode.md) 확인을 참조하세요.
     -   매우 권장하지 않음: `git` 작업이 마음에 들지 않으면 [여기를 클릭하여 압축 코드를 다운로드](https://codeload.github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/zip/refs/heads/main) 할 수 있습니다.
@@ -358,7 +358,7 @@ Wenn Sie Hilfe benötigen, können Sie sich gerne der [Discord Community](https:
 Correggi gli errori nel metodo e nei modificatori di campo
 ----------------------------------------------------------
 
-[src/main/java/com/bytelegend/Cat.java](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/src/main/java/com/bytelegend/Cat.java) non viene compilato ora, correggi l'errore, in modo che l'esecuzione locale di `mvn verify` possa passare. Nota che il metodo `verifyAge()` è il dettaglio di implementazione della classe, non vogliamo che sia `public` .
+[src/main/java/com/bytelegend/Cat.java](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/src/main/java/com/bytelegend/Cat.java) non viene compilato ora, correggi l'errore, in modo che l'esecuzione locale di `mvn verify` possa passare. Nota che il metodo `buildDescription()` è il dettaglio di implementazione della classe, non vogliamo che sia `public` .
 
 Non sai come? Vedere [verifica in locale in IDEA](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/docs/en/run-mvn-verify-idea.md) / [verifica in locale in VSCode](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/docs/en/run-mvn-verify-vscode.md) .
 

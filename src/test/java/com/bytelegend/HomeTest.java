@@ -7,20 +7,16 @@ import java.util.Arrays;
 
 public class HomeTest {
     @Test
-    public void testDescribeMyself() {
+    public void testBuildDescription() {
         Cat cat = new Cat("Tom", 2);
-        Assertions.assertEquals("I am a cat named Tom and I am 2 years old", cat.describeMyself());
+        Assertions.assertEquals(
+                "I am a cat named Tom and I am 2 years old", cat.buildDescription());
     }
 
     @Test
-    public void testVerifyAge() {
-        Assertions.assertThrows(IllegalArgumentException.class, () -> new Cat("Tom", -1));
-    }
-
-    @Test
-    public void verifyAgeIsNotPublic() {
+    public void buildDescriptionIsNotPublic() {
         Assertions.assertTrue(
                 Arrays.stream(Cat.class.getMethods())
-                        .noneMatch(method -> method.getName().equals("verifyAge")));
+                        .noneMatch(method -> method.getName().equals("buildDescription")));
     }
 }

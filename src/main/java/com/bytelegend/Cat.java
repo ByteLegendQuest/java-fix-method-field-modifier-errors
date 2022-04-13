@@ -2,21 +2,20 @@ package com.bytelegend;
 
 public class Cat extends Pet {
     private final int age;
+    private final String desc;
 
     public Cat(String name, int age) {
         super(name);
-        verifyAge();
+        this.desc = buildDescription();
         this.age = age;
     }
 
-    private void verifyAge() {
-        if (age < 0) {
-            throw new IllegalArgumentException("Age cannot be negative");
-        }
+    private String buildDescription() {
+        return "I am a cat named " + name + " and I am " + age + " years old";
     }
 
     @Override
-    private String describeMyself() {
-        return "I am a cat named " + name + " and I am " + age + " years old";
+    protected void describeMyself() {
+        System.out.println(desc);
     }
 }
