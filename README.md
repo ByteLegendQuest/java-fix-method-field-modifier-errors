@@ -40,7 +40,7 @@ Any changes to files other than the following files will be rejected:**
 [src/main/java/com/bytelegend/Cat.java](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/src/main/java/com/bytelegend/Cat.java)中存在一些编译错误，无法通过编译，请修复这些错误，确保本地运行`mvn verify`能够通过。
 注意，其中的`buildDescription()`方法属于类的实现细节，我们不希望把它变成`public`的。
 
-不知道如何做？请查看[在IDEA中本地验证](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/docs/zh_hans/run-mvn-verify-idea.md)/[在VSCode中本地验证](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/docs/zh_hans/run-mvn-verify-vscode.md
+不知道如何做？请查看[在IDEA中本地验证](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/docs/zh_hans/run-mvn-verify-idea.md)/[在VSCode中本地验证](https://github.com/ByteLegendQuest/java-fix-method-field-modifier-errors/blob/main/docs/zh_hans/run-mvn-verify-vscode.md)。
 
 - 你可以使用以下任意一种方法完成挑战：
   - 初学者推荐：运行`git clone https://git.bytelegend.com/ByteLegendQuest/java-fix-method-field-modifier-errors`将代码下载到本地，在本地使用IDE调试完成后复制到网页编辑器里提交。
