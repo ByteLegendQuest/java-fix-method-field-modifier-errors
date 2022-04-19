@@ -6,11 +6,11 @@ public class Cat extends Pet {
 
     public Cat(String name, int age) {
         super(name);
-        this.desc = buildDescription(name, age);
+        this.desc = buildDescription();
         this.age = age;
     }
 
-    private String buildDescription(String name, int age) {
+    private String buildDescription() {
         return "I am a cat named " + name + " and I am " + age + " years old";
     }
 
