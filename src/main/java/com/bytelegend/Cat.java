@@ -10,11 +10,10 @@ public class Cat extends Pet {
         this.age = age;
     }
 
-    private String buildDescription() {
+    String buildDescription() {
         return "I am a cat named " + getName() + " and I am " + age + " years old";
     }
 
-    @Override
     public void describeMyself() {
         System.out.println(desc);
     }
