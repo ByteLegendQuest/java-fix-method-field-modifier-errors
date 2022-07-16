@@ -1,7 +1,7 @@
 package com.bytelegend;
 
 public abstract class Pet {
-    private final String name;
+    protected final String name;
 
     public Pet(String name) {
         this.name = name;
