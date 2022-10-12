@@ -10,7 +10,7 @@ public class Cat extends Pet {
         this.desc = buildDescription();
     }
 
-    private String buildDescription() {
+    public String buildDescription() {
         return "I am a cat named " + getName() + " and I am " + age + " years old";
     }
 
