@@ -15,7 +15,7 @@ public class Cat extends Pet {
     }
 
     @Override
-    protected void describeMyself() {
+    public void describeMyself() {
         System.out.println(desc);
     }
 }
