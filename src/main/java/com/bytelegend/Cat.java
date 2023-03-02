@@ -11,7 +11,7 @@ public class Cat extends Pet {
     }
 
     protected String buildDescription() {
-        return "I am a cat named " + getName + " and I am " + age + " years old";
+        return "I am a cat named " + getName() + " and I am " + age + " years old";
     }
 
     @Override
